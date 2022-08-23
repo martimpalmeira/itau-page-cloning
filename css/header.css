@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-container{
+    height: 80px;
+    background-color: #ec7000;
+    padding: 16px;
+    
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left img{
+    width: 48px;
+}
+
+.menu-container{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    
+}
+
+.menu-items{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    margin: 0px 10px;
+    height: 100%;
+    padding-bottom: 26px;
+}
+
+.menu-items:hover{
+    border-bottom: solid white 4px;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.nav-right form{
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.inputs-container{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 190px;
+    border-radius: 4px;
+   
+}
+
+.inputs-container input{
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    color: #7a7776;
+    text-align: center;
+}
+
+.input-agency-container{
+    height: 100%;
+    width: 50%;
+    border-right: #d7d0cc solid 1px  ;
+    border-image: linear-gradient(to bottom, rgba(0,0,0,0) 25%,#d7d0cc 25%,#d7d0cc 75%,rgba(0,0,0,0) 75%);
+    border-image-slice: 1;
+    padding: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input-conta-container{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+.input-agency{
+    width: 100%;
+    
+}
+
+.inputs-container input::placeholder{
+    text-align: center;
+}
+
+.lock-icon{
+    margin-left: 5px;
+    height: 100%;
+    border-radius: 4px;
+    width: 48px;
+    background-color: #d7d0cc;
+    cursor: none;
+}
+
+.lock-icon img{
+    width: 20px;
+}
+
+.plus-symbol{
+    font-size: 22px;
+}
+
+.acessos{
+    margin: auto 0 auto 25px;
+    text-decoration: none;
+    color: white;
+    word-spacing: 10px;
+}
+
+
+.btn-abra-sua-conta{
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 152px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.btn-abra-sua-conta:hover{
+    background-color: white;
+    color: #ec7000;
+}
+
+
+
+@media screen and (max-width: 1280px){
+    .nav-bar{
+        max-width: 1216px;
+    }
+}

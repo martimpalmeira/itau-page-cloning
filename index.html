@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Itaú | Feito com você</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+</head>
+<header class="nav-container">
+    <nav class="nav-bar">
+        <div class="nav-left">
+            <a href="#"><img src="img/logo-itau.jpeg" alt=""></a>
+            <ul class="menu-container">
+                <li><a class="menu-items" href="#">para você</a></li>
+                <li><a class="menu-items" href="#">para empresas</a></li>
+                <li><a class="menu-items" href="#">ajuda</a></li>
+                <li><a class="menu-items" href="#">busca</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="">
+                <div class="inputs-container">
+                    <div class="input-agency-container">
+                        <input type="text"
+                            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
+                            maxlength="4" class="input-agency" placeholder="agência">
+                    </div>
+                    <div class="input-conta-container">
+                        <input type="text"
+                            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
+                            maxlength="6" class="input-conta" placeholder="conta">
+                    </div>
+                </div>
+                <button class="lock-icon"><img src="img/cadeado.png" alt=""></button>
+            </form>
+            <a class="acessos" href="#"> <span class="plus-symbol">+</span> acessos</a>
+            <button class="btn-abra-sua-conta">abra sua conta</button>
+        </div>
+    </nav>
+</header>
+<section class="banner-container">
+    <div class="banner">
+        <div class="btn-play-container">
+            <button class="btn-play">
+                <img src="img/play-button-arrowhead.png" alt="play-icon">reproduzir
+            </button>
+        </div>
+        <div class="banner-text">
+            <h1>A melhor opção para suas dívidas</h1>
+            <p class="description">Negocie do seu jeito, on-line e com condições especiais</p>
+            <button class="btn-renegocie">renegocie aqui</button>
+        </div>
+
+        <div class="carrossel">
+            <img src="img/arrow.png" class="arrow-left" alt="">
+            <a href="#">.</a>
+            <a href="#">.</a>
+            <a href="#">.</a>
+            <a href="#">.</a>
+            <img src="img/arrow.png" class="arrow-right" alt="">
+        </div>
+    </div>
+</section>
+
+<body>
+</body>
+
+</html>

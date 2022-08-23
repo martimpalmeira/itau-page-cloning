@@ -1,0 +1,125 @@
+.banner-container{
+    background-color: #ec7000;
+}
+
+.banner{
+    background-image: url(../img/banner.jpeg);  
+    background-repeat: no-repeat;
+    height: 540px;
+    color: white;
+    background-color: #ec7000;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+.btn-play-container{
+    position: relative;
+    top: 110px;
+}
+
+.btn-play-container button{
+    font-size: 16px;
+}
+
+.banner-text{
+    position: relative;
+    top: 130px;
+    width: 400px;
+    line-height: 1.3;
+}
+
+.banner-text h1{
+    margin-bottom: 15px;
+}
+
+.description{
+    margin-bottom: 28px;
+}
+
+.banner-text h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.banner-text .description{
+    font-size: 20px;
+}
+
+
+
+.btn-play-container{
+    border-radius: 50px;
+    width: 123px;
+    height: 29px;
+    font-size: 16px;
+    display: flex;
+}
+
+.btn-play{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    color: white;
+    background-color: transparent;
+}
+
+.btn-play-container :hover{
+    background-color: rgba(0,0,0,.54);
+    border: solid 1px white;
+}
+
+.btn-play img:hover{
+    border: none;
+}
+
+
+
+.btn-play img{
+    width: 8px;
+    margin-right: 15px;
+    margin-bottom: 1px;
+}
+
+.btn-renegocie{
+    width: 128px;
+    height: 32px;
+    border-radius: 4px;
+    border: solid 1px white;
+    background-color: rgba(0,0,0,.54);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-renegocie:hover{
+    background-color: rgba(255, 255, 255, 0.54);
+    transition: 1s;
+    color: black;
+}
+
+.arrow-left{
+    transform: scaleX(-1);
+    margin-right: 12px;
+}
+
+.arrow-right{
+    margin-left: 12px;
+}
+
+.carrossel{
+    position: relative;
+    top: 210px;
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+.carrossel a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    height: 100%;
+    margin: 9px 0px 19px 0px;
+    margin-left: 5px;
+    font-size: 25px;
+}
