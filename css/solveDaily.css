@@ -1,0 +1,25 @@
+.solve-daily-questions{
+    padding: 30px 10px 30px 30px;
+    max-width: 1280px;
+}
+
+.solve-daily-questions h2{
+    margin-bottom: 25px;
+}
+
+.questions-items-container{
+    display: flex;
+    
+   
+}
+
+.questions-items{
+    height: 154px;
+    max-width: 157px;
+    min-width: 126px;
+    width: 100%;
+    border: solid 1px #89837f;
+    border-radius: 8px;
+    margin-right: 16px;
+    padding: 10px;
+}
